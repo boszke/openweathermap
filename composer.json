@@ -1,0 +1,17 @@
+{
+    "name": "vendor/openweathermap",
+    "description": "Description of project openweathermap.",
+    "authors": [
+        {
+            "name": "boszk",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpfastcache/phpfastcache": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
